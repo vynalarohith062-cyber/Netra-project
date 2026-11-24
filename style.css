@@ -1,0 +1,115 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    background: #000000;
+    font-family: Arial, sans-serif;
+    color: #edf4ff;
+    min-height: 100vh;
+}
+
+/* Button */
+button {
+    background: #287eef;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 12px 8px;
+}
+
+button:hover {
+    background: #1765c3;
+}
+
+/* Topbar */
+.topbar {
+    min-height: 82px;
+    gap: 20px;
+    height: 60px;
+    background: #111f34;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 12%;
+}
+
+/* Brand n */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Brand Logo */
+.brand-logo {
+    background: #287eef;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* Brand Heading */
+.brand h1 {
+    color: #54a5ff;
+    letter-spacing: 3px;
+}
+
+/* Brand Paragraph */
+.brand p {
+    color: #91a8c5;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #aebed3;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover {
+    color: #54a5ff;
+}
+
+/* Header Right */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #39d6a0;
+    font-size: 11px;
+}
+
+/* Online Dot */
+.online-dot {
+    width: 9px;
+    height: 9px;
+    background: #39d6a0;
+    border-radius: 50%;
+}
+
+/* Clock */
+#clock {
+    color: white;
+    margin-left: 10px;
+    font-family: monospace;
+}
